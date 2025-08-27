@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"github.com/pyKis/test/internal/handler/view/home"
+	"github.com/pyKis/test/internal/view/home"
 )
 
 type homeHandler struct{}
