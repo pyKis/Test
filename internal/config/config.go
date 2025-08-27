@@ -9,6 +9,6 @@ type Config struct {
 func NewConfig() Config {
 	return Config{
 		ServerAddr: ":8080",
-		AssetsFS:  "../web/public/assets",
+		AssetsFS:  "./web/public/assets",
 	}
 }

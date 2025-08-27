@@ -3,6 +3,7 @@ package layout
 type BaseProps struct {
     Title string
 }
+
 templ Base(props BaseProps) {
     <html>
         <head>
@@ -11,7 +12,7 @@ templ Base(props BaseProps) {
         </head>
         <body>
             @header()
-            <div class="container mx-auto py-4">
+            <div class="container mx-auto">
                 {children...}
             </div>
         </body>
